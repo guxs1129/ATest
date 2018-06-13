@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ATest/Classes/**/*'
+s.source_files = 'ATest/Classes/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'ATest' => ['ATest/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ATest_bundle' => ['ATest/Classes/Configurations/*.json']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
 end

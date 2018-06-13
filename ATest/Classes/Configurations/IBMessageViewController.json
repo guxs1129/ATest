@@ -1,0 +1,22 @@
+{
+    "components": [{
+            "IBMessageComponent": {
+                "size": {
+                    "usePercent": true,
+                    "horizontal": 1,
+                    "vertical": 1,
+                    "width": 0,
+                    "height": 0,
+                    "width-full": true
+                },
+                "flex": "FlexCloum",
+                "eg_id": "IBMessageComponent",
+                "eg_tag": "IBMessageComponent",
+                "dataSource":{
+                  
+                   }
+            }
+        }
+    ],
+    "viewcontroller": "IBMessageViewController",
+}

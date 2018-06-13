@@ -1,0 +1,32 @@
+{
+  "name": "ATest",
+  "version": "0.1.0",
+  "summary": "A short description of ATest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guxs1129@163.com/ATest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guxs1129@163.com": "guxs@linkstec.com"
+  },
+  "source": {
+    "git": "https://github.com/guxs1129@163.com/ATest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ATest/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "ATest_bundle": [
+      "ATest/Classes/Configurations/*.json"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
